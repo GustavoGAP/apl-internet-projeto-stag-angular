@@ -103,18 +103,18 @@ p {
     margin: 0 16px;
 }
 
-.toolbar #twitter-logo {
+.toolbar #instagram-logo {
     height: 40px;
     margin: 0 8px;
 }
 
-.toolbar #youtube-logo {
+.toolbar #git-hub-logo {
     height: 40px;
     margin: 0 16px;
 }
 
-.toolbar #twitter-logo:hover,
-.toolbar #youtube-logo:hover {
+.toolbar #instagram-logo:hover,
+.toolbar #git-hub-logo:hover {
     opacity: 0.8;
 }
 
