@@ -1,28 +1,6 @@
-:host {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 14px;
-    color: #333;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 8px 0;
-}
-
-p {
-    margin: 0;
-}
-
-.icone-home{
-    width: 40px;
-    
+body {
+    background-color: #0032fa;
+    font-family: Arial;
 }
 
 .botao-home-class {
@@ -66,7 +44,7 @@ p {
 
 .titulo {
     font-size: 25px;
-    color: #000000;
+    color: #ffffff;
     font-weight: 600;
 }
 
@@ -78,7 +56,7 @@ p {
 
 .paragrafo {
     font-size: 22px;
-    color: #000000;
+    color: #ffffff;
     font-weight: 300;
 }
 
