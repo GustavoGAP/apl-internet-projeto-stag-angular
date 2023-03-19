@@ -4,11 +4,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/modules/material/material.module';
 import { HeaderComponentComponent } from './components/header-component/header-component.component';
+import { CalculadoraComponent } from './components/calculadora/calculadora.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponentComponent
+    HeaderComponentComponent,
+    CalculadoraComponent
   ],
   imports: [
     BrowserModule,

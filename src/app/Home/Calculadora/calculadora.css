@@ -5,34 +5,34 @@ body {
 
 .titulo{
     font-size: 25px;
-    color: #ffffff;
+    color: #000000;
     font-weight: 600;
 }
 
 .paragrafo{
     font-size: 25px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .letras {
-    color: #ffffff;
+    color: #000000;
     font-size: 25px;
     font-family: Arial;
 }
 
 .botoes {
-    background-color: #ffffff;
+    background-color: #000000;
     font-size: 20px;
     font-family: Arial;
 }
 
 .icone-home {
     font-size: 35px;
-    color: #ffffff
+    color: #000000
 }
 
 .botao-home-class {
-    background-color: #ffffff;
+    background-color: #000000;
     padding: 7px;
     font-size: 20px;
 }
