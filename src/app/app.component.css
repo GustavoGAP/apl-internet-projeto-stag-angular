@@ -20,11 +20,6 @@ p {
     margin: 0;
 }
 
-.icone-home{
-    width: 40px;
-    
-}
-
 .botao-home-class {
     background-color: #ffffff;
     padding: 7px;
@@ -80,42 +75,6 @@ p {
     font-size: 22px;
     color: #000000;
     font-weight: 300;
-}
-
-.spacer {
-    flex: 1;
-}
-
-.toolbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    background-color: #1976d2;
-    color: white;
-    font-weight: 600;
-}
-
-.toolbar img {
-    margin: 0 16px;
-}
-
-.toolbar #instagram-logo {
-    height: 40px;
-    margin: 0 8px;
-}
-
-.toolbar #git-hub-logo {
-    height: 40px;
-    margin: 0 16px;
-}
-
-.toolbar #instagram-logo:hover,
-.toolbar #git-hub-logo:hover {
-    opacity: 0.8;
 }
 
 .content {
