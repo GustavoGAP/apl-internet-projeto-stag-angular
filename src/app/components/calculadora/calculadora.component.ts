@@ -15,10 +15,6 @@ export class CalculadoraComponent {
 
   constructor(private router: Router) { } // injeção de dependência do serviço Router
 
-  navegaHome() {
-    this.router.navigate(['/home']); // navega para a rota /home
-  }
-
   mais() {
     this.total = this.numero1 + this.numero2; // atribui o resultado da soma de numero1 e numero2 à variável total
   }

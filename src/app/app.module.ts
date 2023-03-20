@@ -10,6 +10,7 @@ import { HeaderComponentComponent } from './components/header-component/header-c
 import { CalculadoraComponent } from './components/calculadora/calculadora.component';
 import { BotoesHomeComponent } from './components/botoes-home/botoes-home.component';
 import { CalculadoraKWHComponent } from './components/calculadora-kwh/calculadora-kwh.component';
+import { CalcularMDCComponent } from './components/calcular-mdc/calcular-mdc.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CalculadoraKWHComponent } from './components/calculadora-kwh/calculador
     HeaderComponentComponent,
     CalculadoraComponent,
     BotoesHomeComponent,
-    CalculadoraKWHComponent
+    CalculadoraKWHComponent,
+    CalcularMDCComponent
   ],
   imports: [
     BrowserModule,
