@@ -8,12 +8,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HeaderComponentComponent } from './components/header-component/header-component.component';
 import { CalculadoraComponent } from './components/calculadora/calculadora.component';
+import { BotoesHomeComponent } from './components/botoes-home/botoes-home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponentComponent,
-    CalculadoraComponent
+    CalculadoraComponent,
+    BotoesHomeComponent
   ],
   imports: [
     BrowserModule,
