@@ -2,3 +2,13 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+#calculadora-container {
+    position: absolute;
+    top: 60px;
+    background: white;
+    width: 100%;
+    min-height: 755px;
+    padding: 40px;
+    left: 0;
+}
