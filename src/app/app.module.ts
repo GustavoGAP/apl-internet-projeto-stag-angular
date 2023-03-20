@@ -9,13 +9,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponentComponent } from './components/header-component/header-component.component';
 import { CalculadoraComponent } from './components/calculadora/calculadora.component';
 import { BotoesHomeComponent } from './components/botoes-home/botoes-home.component';
+import { CalculadoraKWHComponent } from './components/calculadora-kwh/calculadora-kwh.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponentComponent,
     CalculadoraComponent,
-    BotoesHomeComponent
+    BotoesHomeComponent,
+    CalculadoraKWHComponent
   ],
   imports: [
     BrowserModule,
