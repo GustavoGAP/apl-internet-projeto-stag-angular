@@ -19,6 +19,30 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     left: 31px;
     right: 40px;
 }
+#calcularMDC-container{
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    padding: 40px 0px;
+    left: 31px;
+    right: 40px;
+}
+#numeros-crescentes {
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    padding: 40px 0px;
+    left: 31px;
+    right: 40px;
+}
+#tabuada-container{
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    padding: 40px 0px;
+    left: 31px;
+    right: 40px;
+}
 .content{
     display: flex;
     margin: 82px auto 32px;
