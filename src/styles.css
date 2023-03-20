@@ -66,3 +66,37 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     font-size: 18px;
     margin: 5px;
 }
+
+.input-class{
+    all: unset;
+    border-radius: 4px;
+    border: 1px solid #e2e2e2;
+    background-color: #ffffff;
+    height: 24px;
+    width: 62px;
+    margin: 0px 8px 16px;
+    padding: 5px 6px;
+    display: inline-flex;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+}
+
+.input-class-inserir{
+    all: unset;
+    border-radius: 4px;
+    border: 1px solid #e2e2e2;
+    background-color: #ffffff;
+    height: 24px;
+    width: 90px;
+    margin: 0px 8px 16px;
+    padding: 5px 6px;
+    display: inline-flex;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+}

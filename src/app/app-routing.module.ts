@@ -6,12 +6,14 @@ import { CalculadoraComponent } from "./components/calculadora/calculadora.compo
 import { CalcularMDCComponent } from "./components/calcular-mdc/calcular-mdc.component";
 
 import { HeaderComponentComponent } from "./components/header-component/header-component.component";
+import { NumerosCrescentesComponent } from "./components/numeros-crescentes/numeros-crescentes.component";
 
 const routes: Routes = [
     {path: '', component: BotoesHomeComponent},
     {path: 'calculadora', component: CalculadoraComponent},
     {path: 'calculadoraKWH', component: CalculadoraKWHComponent},
-    {path: 'calculadoraMDC', component: CalcularMDCComponent }
+    {path: 'calculadoraMDC', component: CalcularMDCComponent},
+    {path: 'numerosCrescentes', component: NumerosCrescentesComponent}
 ];
 
 @NgModule({
