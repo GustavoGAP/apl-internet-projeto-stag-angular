@@ -1,0 +1,26 @@
+<div id="calculadoraKWH-container">
+    <header>
+        <h1 class="titulo">CalcularMDC</h1>
+        <p class="paragrafo">
+            Bem Vindo, Aqui vamos calcular o MDC.
+        </p>
+    </header>
+    <br>
+    <div>
+        <label for="num1" class="letras">Número 1:</label>
+        <input type="number" id="num1" [(ngModel)]="num1" />
+    </div>
+    <br><br>
+    <div>
+        <label for="num2" class="letras">Número 2:</label>
+        <input type="number" id="num2" [(ngModel)]="num2" />
+    </div>
+    <br><br>
+    <div>
+        <button class="botoes" (click)="calcularMDC()">Calcular MDC</button>
+    </div>
+    <br><br>
+    <div *ngIf="resultado" class="letras">
+        O MDC entre {{num1}} e {{num2}} é {{resultado}}
+    </div>
+</div>

@@ -1,0 +1,30 @@
+<div id="calculadora-container">
+    <header>
+        <h1 class="titulo">Calculadora</h1>
+        <p class="paragrafo">
+            Bem Vindo, Aqui vamos conseguir realizar operações matematicas.
+        </p>
+    </header>
+
+    <br>
+    <!-- Input para número 1 -->
+    <label for="numero1" class="letras">Valor 1:</label>
+    <input type="number" id="numero1" [(ngModel)]="numero1">
+    <br><br>
+    <!-- Input para número 2 -->
+    <label for="numero2" class="letras">Valor 2:</label>
+    <input type="number" id="numero2" [(ngModel)]="numero2">
+
+    <br><br>
+    <!-- Botões de operações -->
+    <div class="botoes-container">
+        <button (click)="mais()" class="botoes">Somar</button>
+        <button (click)="subtrair()" class="botoes">Subtrair</button>
+        <button (click)="multiplicar()" class="botoes">Multiplicar</button>
+        <button (click)="divide()" class="botoes">Dividir</button>
+    </div>
+    <br>
+
+    <!-- Resultado -->
+    <p class="letras">Resultado: {{total}}</p>
+</div>
