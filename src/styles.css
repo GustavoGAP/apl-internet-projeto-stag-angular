@@ -12,13 +12,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     right: 40px;
 }
 #calculadoraKWH-container {
-    position: absolute;
+    position: fixed;
     top: 60px;
-    background: white;
     width: 100%;
-    min-height: 755px;
-    padding: 40px;
-    left: 0;
+    padding: 40px 0px;
+    left: 31px;
+    right: 40px;
 }
 .content{
     display: flex;
@@ -60,7 +59,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .botoes-container{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
     margin-top: 16px;
 }
 .letras{
