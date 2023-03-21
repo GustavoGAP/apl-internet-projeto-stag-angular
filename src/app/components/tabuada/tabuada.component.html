@@ -1,0 +1,26 @@
+<div id="tabuada-container">
+    <header>
+        <h1 class="titulo">Tabuada</h1>
+        <p class="paragrafo">
+            Bem Vindo, Aqui vamos montar uma tabuada automaticamente, escolhendo.
+        </p>
+    </header>
+
+    <br>
+    <div>
+        <label for="numeroMultiplicado" class="letras">Número a ser multiplicado:</label>
+        <input class="input-class-inserir" type="number" id="numeroMultiplicado" [(ngModel)]="numeroMultiplicado">
+        <br>
+        <label for="numeroInicio"class="letras">Intervalo de início:</label>
+        <input class="input-class-inserir" type="number" id="numeroInicio" [(ngModel)]="numeroInicio">
+        <br>
+        <label for="numeroFim"class="letras">Intervalo de fim:</label>
+        <input class="input-class-inserir" type="number" id="numeroFim" [(ngModel)]="numeroFim">
+        <br><br>
+        <button class="botoes-tabuada" (click)="calcularTabuada()">Calcular tabuada</button>
+    </div>
+
+    <div>
+        <p class="letras" id="resultado" [innerHTML]="tabuada"></p>
+    </div>
+</div>

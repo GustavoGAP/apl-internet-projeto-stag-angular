@@ -11,6 +11,9 @@ import { CalculadoraComponent } from './components/calculadora/calculadora.compo
 import { BotoesHomeComponent } from './components/botoes-home/botoes-home.component';
 import { CalculadoraKWHComponent } from './components/calculadora-kwh/calculadora-kwh.component';
 import { CalcularMDCComponent } from './components/calcular-mdc/calcular-mdc.component';
+import { NumerosCrescentesComponent } from './components/numeros-crescentes/numeros-crescentes.component';
+import { TabuadaComponent } from './components/tabuada/tabuada.component';
+import { DecimalBinarioComponent } from './components/decimal-binario/decimal-binario.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { CalcularMDCComponent } from './components/calcular-mdc/calcular-mdc.com
     CalculadoraComponent,
     BotoesHomeComponent,
     CalculadoraKWHComponent,
-    CalcularMDCComponent
+    CalcularMDCComponent,
+    NumerosCrescentesComponent,
+    TabuadaComponent,
+    DecimalBinarioComponent
   ],
   imports: [
     BrowserModule,

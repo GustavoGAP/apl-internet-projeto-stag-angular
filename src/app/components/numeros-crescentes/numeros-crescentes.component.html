@@ -1,0 +1,17 @@
+<div id="numeros-crescentes">
+    <header>
+        <h1 class="titulo">Numeros Crescentes</h1>
+        <p class="paragrafo">
+            Bem Vindo, Aqui vamos definir se os numeros escrito pelo usuario estão em orderm crescente, somente numeros
+            inteiros positivos.
+        </p>
+    </header>
+
+    <div><br>
+        <label for="numero" class="letras">Digite um número:</label>
+        <input class="input-class-inserir" type="number" id="numero" [(ngModel)]="numero">
+        <br><br>
+        <button class="botoes" (click)="verificarCrescente()">Verificar</button>
+        <p class="letras" id="resultado">{{resultado}}</p>
+    </div>
+</div>
