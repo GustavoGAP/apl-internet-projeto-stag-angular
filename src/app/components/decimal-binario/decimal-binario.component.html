@@ -1,0 +1,16 @@
+<div id="calculadora-container">
+    <header>
+        <h1 class="titulo">Calculadora</h1>
+        <p class="paragrafo">
+            Bem Vindo, Aqui vamos conseguir realizar operações matematicas.
+        </p>
+    </header>
+
+    <br>
+    <label for="decimalInput"  class="letras">Digite um número decimal:</label>
+    <input  class="input-class-inserir" type="number" id="decimalInput" [(ngModel)]="decimal">
+    <br>
+    <button class="botoes-decimal" (click)="converter()">Converter para binário</button>
+    <br><br>
+    <p class="letras" id="resultado">{{ resultado }}</p>
+</div>
