@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class CalcularMDCComponent {
 
+  // Declaração das variáveis com tipo number e atribuição do valor inicial de 0
   num1: number = 0;
   num2: number = 0;
   resultado: number = 0;
