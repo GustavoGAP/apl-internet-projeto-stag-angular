@@ -5,15 +5,6 @@
     margin-top: 16px;
 }
 
-.card-container .card:not(:last-child) {
-    margin-right: 0;
-}
-
-.card.card-small {
-    height: 16px;
-    width: 168px;
-}
-
 .card-container .card:not(.highlight-card) {
     cursor: pointer;
 }
@@ -25,6 +16,28 @@
 
 .card-container .card:not(.highlight-card):hover {
     fill: rgb(105, 103, 103);
+}
+
+.card.card.highlight-card span {
+    margin-left: 60px;
+}
+
+.card {
+    all: unset;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 40px;
+    width: 200px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    font-weight: 600;
 }
 
 .calculadora-style-icon{
@@ -52,27 +65,6 @@
     font-size: 30px;
 }
 
-.card.card.highlight-card span {
-    margin-left: 60px;
-}
-
-.card {
-    all: unset;
-    border-radius: 4px;
-    border: 1px solid #eee;
-    background-color: #fafafa;
-    height: 40px;
-    width: 200px;
-    margin: 0 8px 16px;
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.2s ease-in-out;
-    line-height: 24px;
-    font-weight: 600;
-}
 
 /* Responsive Styles */
 @media screen and (max-width: 767px) {
