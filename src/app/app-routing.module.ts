@@ -10,7 +10,7 @@ import { NumerosCrescentesComponent } from "./components/numeros-crescentes/nume
 import { TabuadaComponent } from "./components/tabuada/tabuada.component";
 
 const routes: Routes = [
-    {path: '', component: BotoesHomeComponent},
+    {path: 'home', component: BotoesHomeComponent},
     {path: 'calculadora', component: CalculadoraComponent},
     {path: 'calculadoraKWH', component: CalculadoraKWHComponent},
     {path: 'calculadoraMDC', component: CalcularMDCComponent},

@@ -16,6 +16,7 @@
     left: 17px;
     position: relative;
     font-size: 35px;
+    cursor: pointer;
 }
 .titulo {
     color: #ffff;
